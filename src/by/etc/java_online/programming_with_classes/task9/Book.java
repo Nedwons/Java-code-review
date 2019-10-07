@@ -43,7 +43,7 @@ public class Book {
 	private int yearOfPublishing;
 	private int pageCount;
 	private double price;
-	private String bookbindingType; // дженерики?
+	private String bookbindingType; // enum?
 	
 	public int getBookId() {
 		return bookId;
